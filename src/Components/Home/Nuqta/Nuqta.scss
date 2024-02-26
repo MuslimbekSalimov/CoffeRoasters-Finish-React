@@ -1,0 +1,60 @@
+.nuqta {
+    margin-top: 160px;
+
+    .nuqta__list {
+        display: flex;
+        align-items: center;
+        gap: 349px;
+    }
+
+    .line {
+        width: 730px;
+        height: 1px;
+        background-color: #FDD6BA;
+        color: #FDD6BA;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+    .oval__list {
+        display: flex;
+        align-items: center;
+        gap: 95px;
+    }
+
+    .oval__heading {
+        font-family: "Fraunces";
+        color: #FDD6BA;
+        font-size: 72px;
+    }
+
+    .oval__h4 {
+        font-family: "Fraunces";
+        color: #333D4B;
+        font-size: 32px;
+        width: 215px;
+    }
+
+    .oval__text {
+        font-family: "Fraunces";
+        color: #333D4B;
+        font-size: 18px;
+    
+    }
+
+    .buttonjon {
+        width: 217px;
+        height: 56px;
+        background-color: #0E8784;
+        border: none;
+
+        // Text 
+        font-family: "Fraunces";
+        color: #FEFCF7;
+        font-size: 18px;
+        border-radius: 12px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}

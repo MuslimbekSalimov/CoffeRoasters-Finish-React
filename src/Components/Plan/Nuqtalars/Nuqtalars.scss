@@ -1,0 +1,64 @@
+.Nuqtalars {
+    margin-top: 160px;
+
+    .container {
+    background-color: #2C343E;
+    }
+
+    .Nuqtalars__list {
+        display: flex;
+        align-items: center;
+        gap: 349px;
+    }
+
+    .line {
+        width: 730px;
+        height: 1px;
+        background-color: #FDD6BA;
+        color: #FDD6BA;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+
+    .nn__list {
+        display: flex;
+        align-items: center;
+        gap: 95px;
+    }
+
+    .nn__heading {
+        font-family: "Fraunces";
+        color: #FDD6BA;
+        font-size: 72px;
+    }
+
+    .nn__h4 {
+        font-family: "Fraunces";
+        color: #FFF;
+        font-size: 32px;
+        width: 215px;
+    }
+
+    .nn__text {
+        font-family: "Fraunces";
+        color: #FFFFFF;
+        font-size: 18px;
+    
+    }
+
+    // .buttonjon {
+    //     width: 217px;
+    //     height: 56px;
+    //     background-color: #0E8784;
+    //     border: none;
+
+    //     // Text 
+    //     font-family: "Fraunces";
+    //     color: #FEFCF7;
+    //     font-size: 18px;
+    //     border-radius: 12px;
+    //     margin-top: 20px;
+    //     cursor: pointer;
+    // }
+}

@@ -1,0 +1,97 @@
+.hero {
+    padding-top: 40px;
+
+    .hero__info {
+        background: url(../../img/HomeBac.jpg) no-repeat;
+        width: 1280px;
+        height: 600px;
+        background-size: contain;
+        padding-top: 117px;
+        padding-left: 85px;
+    }
+
+    .hero__heading {
+        font-family: "Fraunces";
+        color: #FEFCF7;
+        font-size: 62px;
+        width: 483px;
+    }
+
+    .hero__text {
+        font-family: "Barlow" sans-serif;
+        font-size: 16px;
+        color: #FEFCF7;
+        width: 445px;
+    }
+    .hero__button {
+        width: 217px;
+        height: 56px;
+        background-color: #0E8784;
+        border: none;
+
+        // Text 
+        font-family: "Fraunces";
+        color: #FEFCF7;
+        font-size: 18px;
+        border-radius: 12px;
+        margin-top: 20px;
+    }
+
+    .modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all 0.5s ease-in-out;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .modalka {
+        background-color: #FFF;
+        width: 700px;
+        height: 400px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        .modal__heading {
+            color: #000;
+            // padding-top: 40px;
+        }
+
+        .modal__text {
+            color: #000;
+        }
+
+        .modal__button {
+            background-color: #FFF;
+            border: none;
+            font-size: 24px;
+            color: #000;
+            font-family: "Fraunces";
+            cursor: pointer;
+            margin-top: 20px;
+            margin-left: 630px;
+
+            &:hover {
+                background-color: #000;
+                color: #FFF;
+                border-radius: 12px;
+            }
+        }
+    }
+}

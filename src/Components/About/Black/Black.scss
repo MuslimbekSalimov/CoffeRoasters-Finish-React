@@ -1,0 +1,43 @@
+.black {
+    margin-top: 168px;
+
+    .container {
+        width: 1280px;
+        height: 474px;
+        background-color: 
+        #2C343E;
+        border-radius: 12px;
+        display: flex;
+        // align-items: center;
+        gap: 125px;
+    }
+
+    &__info {
+        width: 540px;
+        padding-top: 88px;
+        padding-left: 85px;
+    }
+
+    &__heading {
+        font-family: "Fraunces";
+        font-size: 34px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #FFF;
+        
+    }
+
+    &__text {
+        font-family: "Barlow" sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #FFF;
+        
+    }
+
+    &__img {
+        border-radius: 12px;
+        transform: translateY(-72px);
+    }
+}

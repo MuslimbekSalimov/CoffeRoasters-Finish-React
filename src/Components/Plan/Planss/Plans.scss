@@ -1,0 +1,37 @@
+.plan {
+    margin-top: 40px;
+
+    .plan__info {
+        background: url(../../img/secondBac.png) no-repeat;
+        width: 1280px;
+        height: 450px;
+        background-size: contain;
+        padding-top: 134px;
+        padding-left: 85px;
+    }
+
+    .plan__heading {
+        font-family: "Fraunces";
+        font-size: 40px;
+        font-weight: 900;
+        line-height: 48px;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+
+    .plan__text {
+        font-family: 'Barlow' serif;
+        font-size: 16px;
+        font-weight: 100;
+        font-style: normal;
+        line-height: 26px;
+        margin: 0;
+        padding: 0;
+        color: #FEFCF7;
+        opacity: 0.8;
+        width: 445px;
+        text-decoration: start;
+        padding-top: 32px;
+    }
+}
